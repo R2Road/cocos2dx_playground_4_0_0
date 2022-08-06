@@ -1,0 +1,26 @@
++ 필요한 것
+	> python 2.x 이상
+	> cmake 3.1 이상
+	> cocos2d-x 4.0.0 zip 파일
+
+
+
++ 설치
+	> python 설치, 환경 변수 설정( Path 항목에 python path 추가 )
+	> cmake 설치( PATH for all users 체크 )
+	> cocos2d-x 압축 푼다.
+	> 콘솔창을 열어서 압축 풀어 놓은 폴더 안으로 이동
+	> setup.py ( sdk, ndk 는 필요없다면 무시해도 된다. )
+
+
+
++ cocos2d-x 4.0.0 프로젝트 생성
+	> cocos new project_name -p com.package.name -l cpp -d ../
+
+
+
++ 솔루션 생성 : win32 프로젝트 생성
+	> 프로젝트 폴더 안으로 이동
+	> cmake .. -G"Visual Studio 15 2017" -A win32
+
+	- visual studio version : https://en.wikipedia.org/wiki/Microsoft_Visual_Studio

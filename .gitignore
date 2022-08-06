@@ -1,1 +1,9 @@
 cocos2dx_playground_4_0_0/cocos2d/*
+cocos2dx_playground_4_0_0/proj.win32/.vs/*
+cocos2dx_playground_4_0_0/proj.win32/engine/*
+cocos2dx_playground_4_0_0/proj.win32/lib/*
+cocos2dx_playground_4_0_0/proj.win32/bin/*
+cocos2dx_playground_4_0_0/proj.win32/win32/*
+cocos2dx_playground_4_0_0/proj.win32/cocos2dx_playground_4_0_0.dir/*
+cocos2dx_playground_4_0_0/proj.win32/Debug/cocos2dx_playground_4_0_0.exp
+cocos2dx_playground_4_0_0/proj.win32/Debug/cocos2dx_playground_4_0_0.lib

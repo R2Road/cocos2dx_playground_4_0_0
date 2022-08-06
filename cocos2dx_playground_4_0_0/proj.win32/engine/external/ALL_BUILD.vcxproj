@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1A7BEBB-D87B-3D97-9046-FB21E758512B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{E820E90A-61F9-3456-85CF-A57FC63B32C2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{4086AF3C-3ED9-318B-A037-62F6F442A9F5}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{DAA3C43A-EF99-3F9B-939F-888C71B1764A}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{ACCC8DE2-9885-3D70-BC87-0418593A3CD9}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{4D7F785A-F9D7-3123-B05D-7A7A0E96D4B0}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{E510EC7A-DE0C-3496-A273-91C685243639}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{6F5BD0AE-D72C-37FC-891B-61F2C0E34277}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{2277738D-5265-3A7B-B460-E0C8A4242638}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{A196F2DE-8785-3C3B-9944-4104E1919EEA}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{41EA2AE7-74AB-3BC7-9C42-133C3646A362}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{A69FE45D-6308-3AB7-BC36-1D85477C47ED}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\external.vcxproj">
+      <Project>{CC24BE65-F38D-3A25-98D1-38390F020C81}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

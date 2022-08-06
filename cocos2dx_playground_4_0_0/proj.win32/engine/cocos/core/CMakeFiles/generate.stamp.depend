@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/2d/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/3d/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/audio/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/base/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/editor-support/cocostudio/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/math/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/navmesh/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/network/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/physics/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/physics3d/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/platform/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/renderer/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/cocos/ui/CMakeLists.txt
+F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/extensions/CMakeLists.txt

@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{304534ED-54D9-38C9-99D7-901A6735A876}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>cocos2dx_playground_4_0_0</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\bin\cocos2dx_playground_4_0_0\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">cocos2dx_playground_4_0_0.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">cocos2dx_playground_4_0_0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\bin\cocos2dx_playground_4_0_0\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">cocos2dx_playground_4_0_0.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">cocos2dx_playground_4_0_0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\bin\cocos2dx_playground_4_0_0\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">cocos2dx_playground_4_0_0.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">cocos2dx_playground_4_0_0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\bin\cocos2dx_playground_4_0_0\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">cocos2dx_playground_4_0_0.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">cocos2dx_playground_4_0_0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>												</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/uv/prebuilt/win32/uv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/websockets/prebuilt/win32/websockets.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/curl/prebuilt/win32/libcurl.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cocos2d.lib;lib\Debug\external.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\prebuilt\win32\debug\libbox2d.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\prebuilt\win32\debug-lib\libchipmunk.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Debug\ext_recast.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\prebuilt\win32\debug\libbullet.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\prebuilt\win32\libwebp.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\prebuilt\win32\websockets.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libssl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Debug\ext_tinyxml2.lib;lib\Debug\ext_xxhash.lib;lib\Debug\ext_xxtea.lib;lib\Debug\ext_clipper.lib;lib\Debug\ext_edtaa3func.lib;lib\Debug\ext_convertUTF.lib;lib\Debug\ext_poly2tri.lib;lib\Debug\ext_md5.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\prebuilt\win32\libcurl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\prebuilt\win32\libpng.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Debug\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/Debug/cocos2dx_playground_4_0_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Debug/cocos2dx_playground_4_0_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>												</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/uv/prebuilt/win32/uv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/websockets/prebuilt/win32/websockets.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/curl/prebuilt/win32/libcurl.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\cocos2d.lib;lib\Release\external.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Release\ext_recast.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\prebuilt\win32\libwebp.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\prebuilt\win32\websockets.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libssl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Release\ext_tinyxml2.lib;lib\Release\ext_xxhash.lib;lib\Release\ext_xxtea.lib;lib\Release\ext_clipper.lib;lib\Release\ext_edtaa3func.lib;lib\Release\ext_convertUTF.lib;lib\Release\ext_poly2tri.lib;lib\Release\ext_md5.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\prebuilt\win32\libcurl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\prebuilt\win32\libpng.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Release\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/Release/cocos2dx_playground_4_0_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/Release/cocos2dx_playground_4_0_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>												</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/uv/prebuilt/win32/uv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/websockets/prebuilt/win32/websockets.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/curl/prebuilt/win32/libcurl.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\cocos2d.lib;lib\MinSizeRel\external.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\MinSizeRel\ext_recast.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\prebuilt\win32\libwebp.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\prebuilt\win32\websockets.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libssl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\MinSizeRel\ext_tinyxml2.lib;lib\MinSizeRel\ext_xxhash.lib;lib\MinSizeRel\ext_xxtea.lib;lib\MinSizeRel\ext_clipper.lib;lib\MinSizeRel\ext_edtaa3func.lib;lib\MinSizeRel\ext_convertUTF.lib;lib\MinSizeRel\ext_poly2tri.lib;lib\MinSizeRel\ext_md5.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\prebuilt\win32\libcurl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\prebuilt\win32\libpng.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\MinSizeRel\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/MinSizeRel/cocos2dx_playground_4_0_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/MinSizeRel/cocos2dx_playground_4_0_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\audio\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\extensions;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\editor-support;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\base;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\platform\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\recast\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\tinyxml2\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxhash\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\xxtea\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\clipper\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\edtaa3func\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\ConvertUTF\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\poly2tri\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\md5\..;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\unzip\.;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\include\win32\freetype2;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\include\bullet;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\include\OGLES;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\include;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\include\win32;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>												</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/uv/prebuilt/win32/uv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/websockets/prebuilt/win32/websockets.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/curl/prebuilt/win32/libcurl.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\cocos2d.lib;lib\RelWithDebInfo\external.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\RelWithDebInfo\ext_recast.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\webp\prebuilt\win32\libwebp.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\websockets\prebuilt\win32\websockets.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libssl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\RelWithDebInfo\ext_tinyxml2.lib;lib\RelWithDebInfo\ext_xxhash.lib;lib\RelWithDebInfo\ext_xxtea.lib;lib\RelWithDebInfo\ext_clipper.lib;lib\RelWithDebInfo\ext_edtaa3func.lib;lib\RelWithDebInfo\ext_convertUTF.lib;lib\RelWithDebInfo\ext_poly2tri.lib;lib\RelWithDebInfo\ext_md5.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\curl\prebuilt\win32\libcurl.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\png\prebuilt\win32\libpng.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\RelWithDebInfo\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/RelWithDebInfo/cocos2dx_playground_4_0_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/bin/cocos2dx_playground_4_0_0/RelWithDebInfo/cocos2dx_playground_4_0_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildSet.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDefine.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDepend.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildSet.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDefine.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDepend.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildSet.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDefine.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDepend.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0 -BF:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32 --check-stamp-file F:/Work/0_Pragma/0_cocos2dProject/project_cocos2dx_playground_4_0_0/cocos2dx_playground_4_0_0/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosBuildSet.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDefine.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cmake\Modules\CocosConfigDepend.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\3.24.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes\AppDelegate.h" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes\HelloWorldScene.h" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\main.h" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\resource.h" />
+    <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes\AppDelegate.cpp" />
+    <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\main.cpp" />
+    <ResourceCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\game.rc" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\CloseNormal.png" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\CloseSelected.png" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\HelloWorld.png" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\fonts\arial.ttf" />
+    <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\res\.gitkeep" />
+    <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\precheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{E820E90A-61F9-3456-85CF-A57FC63B32C2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\SYNC_RESOURCE-cocos2dx_playground_4_0_0.vcxproj">
+      <Project>{A44EC7BC-52CD-3BFA-A867-5B77ED04304C}</Project>
+      <Name>SYNC_RESOURCE-cocos2dx_playground_4_0_0</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{7812E2CF-490D-3626-8C03-BA39F7336891}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{4086AF3C-3ED9-318B-A037-62F6F442A9F5}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{DAA3C43A-EF99-3F9B-939F-888C71B1764A}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{ACCC8DE2-9885-3D70-BC87-0418593A3CD9}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{4D7F785A-F9D7-3123-B05D-7A7A0E96D4B0}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{E510EC7A-DE0C-3496-A273-91C685243639}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{6F5BD0AE-D72C-37FC-891B-61F2C0E34277}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{2277738D-5265-3A7B-B460-E0C8A4242638}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{A196F2DE-8785-3C3B-9944-4104E1919EEA}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{41EA2AE7-74AB-3BC7-9C42-133C3646A362}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{A69FE45D-6308-3AB7-BC36-1D85477C47ED}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\engine\external\external.vcxproj">
+      <Project>{CC24BE65-F38D-3A25-98D1-38390F020C81}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

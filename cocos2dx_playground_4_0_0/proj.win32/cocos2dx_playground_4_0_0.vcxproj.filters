@@ -2,1866 +2,1864 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\main.cpp">
-      <Filter>Source Files\proj.win32</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\precheader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_CostMapNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_CostMapNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_CostNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_CostNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_Direction8Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_EditorNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_Grid4TileMap.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_ProcessorNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_astar_TestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_Direction4Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_DirectionMapNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_DirectionMapNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_EditorNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_Grid4TileMap.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_ProcessorNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_floodfill_TestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_loophero_PivotScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_loophero_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_loophero_SquareBuilder.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_loophero_SquareScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_loophero_TrimScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\algorithm_practice_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_action_SoundActionScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_action_SpriteFrameActionScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_image_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_image_PNGScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_particle_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_render_CameraNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_render_Prerender2Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_render_PrerenderScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cocos_research_update_SequenceScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>proj.win32</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_Animation_Index.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\animation</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_animation_InfoContainer.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\animation</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_Direction4.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_Direction8.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_GridIndexConverter.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_AllowedKeys.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_BasicKeyCollector.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_DelegatorNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_iKeyCollector.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_KeyboardInputObserverNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_KeyCodeNames.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_KeyMap.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_KeyMapConfigHelper.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_input_KeyViewer.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_node_GuideRectNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_node</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_node_PivotNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_Position2GridIndexConverter.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_Random.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_Setting.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_SoundAction.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_SpriteFrameAction.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_SStream.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_StringTable.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_TileSheetConfiguration.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\cpg_TileSheetUtility.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_node</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_ui_ChargeButtonNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_ui_EXButtonNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_ui_GaugeNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_ui_ScrollViewGenerator.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\cpg_ui_ToolBarNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\EntryScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\fsm1_Machine.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\fsm1</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_Collection01Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_Position2GridIndexConverter.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_Collection02Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_Random.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_Collection03Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_Setting.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_Collection04Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_SoundAction.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_Collection05Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_SpriteFrameAction.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_Collection06Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_SStream.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_CosineScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_StringTable.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_GraphAndNameNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_TileSheetConfiguration.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_GraphViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_SineScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_TangentScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_test_GraphAndNameNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\graph_practice_test_GraphViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_TileSheetUtility.cpp">
+      <Filter>classes\cpg</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\helper_Win32DirectoryOpen.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\helper</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_AllowedKeysTestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_AllowedKeys.cpp">
+      <Filter>classes\cpg_input</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_ConfigedKeysTestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_BasicKeyCollector.cpp">
+      <Filter>classes\cpg_input</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_GamePadTestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_DelegatorNode.cpp">
+      <Filter>classes\cpg_input</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_KeyAllowScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_iKeyCollector.cpp">
+      <Filter>classes\cpg_input</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_KeyConfigScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_KeyboardInputObserverNode.cpp">
+      <Filter>classes\cpg_input</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_KeyCodeNames.cpp">
+      <Filter>classes\cpg_input</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input_practice_Setting.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\cpg_input_KeyMap.cpp">
+      <Filter>classes\cpg_input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cpg_input_KeyMapConfigHelper.cpp">
+      <Filter>classes\cpg_input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cpg_input_KeyViewer.cpp">
+      <Filter>classes\cpg_input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntryScene.cpp">
+      <Filter>classes\scene</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\PlayGroundScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\cocos2d\cocos\precheader.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\algorithm_practice_RootScene.cpp">
+      <Filter>classes\scene\algorithm_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_Collection01Scene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_Collection02Scene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_Collection03Scene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_Collection04Scene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_Collection05Scene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_Collection06Scene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_CosineScene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_GraphAndNameNode.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_GraphViewNode.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_RootScene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_SineScene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_TangentScene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_test_GraphAndNameNodeScene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\graph_practice_test_GraphViewNodeScene.cpp">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_AllowedKeysTestScene.cpp">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_ConfigedKeysTestScene.cpp">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_GamePadTestScene.cpp">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_KeyAllowScene.cpp">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_KeyConfigScene.cpp">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_RootScene.cpp">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input_practice_Setting.cpp">
+      <Filter>classes\scene\input_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_CCRandom01Scene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_CCTimeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_GLUniformInfos.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_GLUniformInfosScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\shader_practice_SimpleTestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_animation_ListScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_CostMapNode.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_animation_PlayNStopScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_CostMapNodeScene.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_button_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_CostNode.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_Block.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_CostNodeScene.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_BlockViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_Direction8Scene.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_Constant.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_EditorNode.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_EffectManagerNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_Grid4TileMap.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_EffectViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_ProcessorNode.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_ExplainScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_RootScene.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_PlayScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_astar_TestScene.cpp">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_Processor.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_Direction4Scene.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_ResultScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_DirectionMapNode.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_Stage.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_DirectionMapNodeScene.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_StageViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_EditorNode.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_test_BlockViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_Grid4TileMap.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_test_EffectManagerNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_ProcessorNode.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_test_EffectViewScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_RootScene.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_test_GameProcessorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_floodfill_TestScene.cpp">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_test_StageViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_loophero_PivotScene.cpp">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_game_TitleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_loophero_RootScene.cpp">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_clickclick_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_loophero_SquareBuilder.cpp">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_loophero_SquareScene.cpp">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_ContactScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_GravityScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_MoveScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_game_test_TileMapNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_game_TileMapNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_parallax_node_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_parallax_node_RatioCheckScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_tool_TileSheetNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_action_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_CardSelectorNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_CardViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_Constant.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_MessageViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_PlayScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_ResultScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_StageData.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_StageViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_CardViewScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_StageViewScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_TitleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_opacity_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_scale_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_sprite_frame_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_texture_AliasScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_texture_PListScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_animation_CallbackScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_animation_ComponentScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_animation_InfoContainer.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_AnimationComponent.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_CircleCollisionComponent.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_collision_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_collision_ComponentScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_HittingNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_PlayScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_ResultScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_StageNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_TargetManager.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_HittingNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_ObjectActionScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_SpawnAndHitScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_SpawnScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_TitleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_ObjectComponent.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_fileutil_GenerateNDeleteScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_fileutil_PathScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_Constant.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_PlayerNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_PlayScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_ResultScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_StageDataContainer.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_TerrainData.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_TerrainViewer.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_test_PlayerMoveScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_test_TerrainViewerScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_game_TitleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_json_LoadNSaveScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_textField_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_tool_TerrainEditHelper.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_tool_TerrainSaveHelper.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_tool_TerrainToolScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_pathfinder_tool_ui_TileSelectNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_button_DragScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_collision_CollectionScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletManager.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayerNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_ResultScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_StageNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_TitleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_Constant.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_IndicatorViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_LetterViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_PlayScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_ResultScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_Stage.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_StageViewNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_GameProcessScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_StageViewNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_TitleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_input_KeyCodeViewScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_label_ttf_AlignScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_label_ttf_ETCScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_node_AnchorPointScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_ScheduleScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_sound_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_sprite_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step02_fsm1test_AnimationControlScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step02_fsm1test_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Step99_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="..\Classes\algorithm_practice_loophero_TrimScene.cpp">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\tool_practice_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\tool_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\tool_practice_TileSheetTestConfiguration.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\tool_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\tool_practice_TileSheetTestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\tool_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_layout_test_ChangeSequenceScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_layout_test_VariousItemSizeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_LayoutHorizontalScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_LayoutNScrollViewScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_LayoutVerticalScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_Minimap.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_MouseCursorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_RadioButtonScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_RelativeLayoutScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_ScrollViewGeneratorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_SliderScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_ToggleButtonScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_practice_UIAndCamera.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_ChargeButtonScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_EXButtonScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_MouseRightClickScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_OnMouseOverScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonStepScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonTestScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_button_research_team_fight_manager_OnMouseOverNode.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_gauge_research_AnimationScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_gauge_research_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_gauge_research_GaugeNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_gauge_research_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ui_research_gauge_research_SpriteScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_layout_research_OptionBarNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_layout_research_ToolBarNodeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_RootScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_text_field_BMFontScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_ChargeButtonScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_EXButtonScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_MouseRightClickScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_OnMouseOverScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_RootScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonStepScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonTestScene.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_button_research_team_fight_manager_OnMouseOverNode.cpp">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_gauge_research_AnimationScene.cpp">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_gauge_research_BasicScene.cpp">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_gauge_research_GaugeNodeScene.cpp">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_gauge_research_RootScene.cpp">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui_research_gauge_research_SpriteScene.cpp">
+      <Filter>classes\scene\ui_research\gauge</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_type_effect_BasicScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_type_effect_ColorScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_type_effect_MultiByteScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ui_research_type_effect_ShakeScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Step99_RootScene.cpp">
+      <Filter>classes\scene\step99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_action_SoundActionScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_action_SpriteFrameActionScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_image_BasicScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_image_PNGScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_particle_BasicScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_render_CameraNode.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_render_Prerender2Scene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_render_PrerenderScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos_research_update_SequenceScene.cpp">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_collision_CollectionScene.cpp">
+      <Filter>classes\scene\step99\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step02_fsm1test_AnimationControlScene.cpp">
+      <Filter>classes\scene\step99\fsm1test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step02_fsm1test_BasicScene.cpp">
+      <Filter>classes\scene\step99\fsm1test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_Constant.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_IndicatorViewNode.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_LetterViewNode.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_PlayScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_ResultScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_Stage.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_StageViewNode.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_GameProcessScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_StageViewNodeScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_TitleScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_input_KeyCodeViewScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_label_ttf_AlignScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_label_ttf_ETCScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_node_AnchorPointScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_RootScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_ScheduleScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_sound_BasicScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_sprite_BasicScene.cpp">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_action_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_CardSelectorNode.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_CardViewNode.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_Constant.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_MessageViewNode.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_PlayScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_ResultScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_StageData.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_StageViewNode.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_CardViewScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_StageViewScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_TitleScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_opacity_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_RootScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_scale_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_sprite_frame_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_texture_AliasScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_texture_PListScene.cpp">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_animation_ListScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_animation_PlayNStopScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_button_BasicScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_Block.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_BlockViewNode.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_Constant.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_EffectManagerNode.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_EffectViewNode.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_ExplainScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_PlayScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_Processor.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_ResultScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_Stage.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_StageViewNode.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_test_BlockViewNodeScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_test_EffectManagerNodeScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_test_EffectViewScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_test_GameProcessorScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_test_StageViewNodeScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_game_TitleScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_clickclick_RootScene.cpp">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_fileutil_GenerateNDeleteScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_fileutil_PathScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_Constant.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_PlayerNode.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_PlayScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_ResultScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_StageDataContainer.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_TerrainData.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_TerrainViewer.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_test_PlayerMoveScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_test_TerrainViewerScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_game_TitleScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_json_LoadNSaveScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_RootScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_textField_BasicScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_tool_TerrainEditHelper.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_tool_TerrainSaveHelper.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_tool_TerrainToolScene.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_pathfinder_tool_ui_TileSelectNode.cpp">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_animation_CallbackScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_animation_ComponentScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_animation_InfoContainer.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_AnimationComponent.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_CircleCollisionComponent.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_collision_BasicScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_collision_ComponentScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_HittingNode.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_PlayScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_ResultScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_StageNode.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_TargetManager.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_HittingNodeScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_ObjectActionScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_SpawnAndHitScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_SpawnScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_TitleScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_ObjectComponent.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_RootScene.cpp">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_button_DragScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletManager.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayerNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_ResultScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_StageNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_TitleScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_RootScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_BasicScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_ContactScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_GravityScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_MoveScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_game_test_TileMapNodeScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_game_TileMapNode.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_parallax_node_BasicScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_parallax_node_RatioCheckScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_RootScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_tool_TileSheetNode.cpp">
+      <Filter>classes\scene\step_07_defender</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\main.h">
-      <Filter>Source Files\proj.win32</Filter>
+      <Filter>proj.win32</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\resource.h">
-      <Filter>Source Files\proj.win32</Filter>
+      <Filter>proj.win32</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\CloseNormal.png">
-      <Filter>Resources</Filter>
+      <Filter>resources</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\CloseSelected.png">
-      <Filter>Resources</Filter>
+      <Filter>resources</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\HelloWorld.png">
-      <Filter>Resources</Filter>
+      <Filter>resources</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\fonts\Marker Felt.ttf">
-      <Filter>Resources\fonts</Filter>
+      <Filter>resources\fonts</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\fonts\arial.ttf">
-      <Filter>Resources\fonts</Filter>
+      <Filter>resources\fonts</Filter>
     </ClInclude>
     <ClInclude Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\Resources\res\.gitkeep">
-      <Filter>Resources\res</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_CostMapNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_CostMapNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_CostNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_CostNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_Direction8Scene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_EditorNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_Grid4TileMap.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_NodeAStar.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_ProcessorNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_astar_TestScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_Cell4FloodFill.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_Direction4Scene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_DirectionMapNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_DirectionMapNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_EditorNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_Grid4TileMap.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_ProcessorNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_floodfill_TestScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_loophero_Constant.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_loophero_PivotScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_loophero_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_loophero_SquareBuilder.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_loophero_SquareScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_loophero_TrimScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\algorithm_practice_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_action_SoundActionScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_action_SpriteFrameActionScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_image_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_image_PNGScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_particle_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_render_CameraNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_render_Prerender2Scene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_render_PrerenderScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cocos_research_update_SequenceScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>resources\res</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Animation_Index.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\animation</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Animation_Info.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\animation</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_animation_InfoContainer.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\animation</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Clamp.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Direction4.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Direction8.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Grid.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_GridIndexConverter.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_AllowedKeys.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_BasicKeyCollector.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_DelegatorNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_iKeyCollector.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_KeyboardInputObserverNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_KeyCodeContainer.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_KeyCodeNames.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_KeyMap.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_KeyMapConfigHelper.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_input_KeyViewer.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_node_GuideRectNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_node_PivotNode.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_Point.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\cpg_Position2GridIndexConverter.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_node_GuideRectNode.h">
+      <Filter>classes\cpg_node</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\cpg_Random.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_Setting.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_SoundAction.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_SpriteFrameAction.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_SStream.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_StringTable.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_TileSheetConfiguration.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\cpg_TileSheetUtility.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_node_PivotNode.h">
+      <Filter>classes\cpg_node</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_ui_ChargeButtonNode.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_ui_EXButtonNode.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_ui_GaugeNode.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_ui_ScrollViewGenerator.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\cpg_ui_ToolBarNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\EntryScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\cpg_ui</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\fsm1_iState.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\fsm1</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\fsm1_Machine.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\fsm1</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_Collection01Scene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_Position2GridIndexConverter.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_Collection02Scene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_Random.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_Collection03Scene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_Setting.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_Collection04Scene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_SoundAction.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_Collection05Scene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_SpriteFrameAction.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_Collection06Scene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_SStream.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_CosineScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_StringTable.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_GraphAndNameNode.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_TileSheetConfiguration.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_GraphViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_SineScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_TangentScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_test_GraphAndNameNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\graph_practice_test_GraphViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_TileSheetUtility.h">
+      <Filter>classes\cpg</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\helper_BackToThePreviousScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\helper</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\helper_SceneMover.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\helper</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\helper_Win32DirectoryOpen.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\helper</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_AllowedKeysTestScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_AllowedKeys.h">
+      <Filter>classes\cpg_input</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_ConfigedKeysTestScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_BasicKeyCollector.h">
+      <Filter>classes\cpg_input</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_GamePadTestScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_DelegatorNode.h">
+      <Filter>classes\cpg_input</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_KeyAllowScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_iKeyCollector.h">
+      <Filter>classes\cpg_input</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_KeyConfigScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_KeyboardInputObserverNode.h">
+      <Filter>classes\cpg_input</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_KeyCodeContainer.h">
+      <Filter>classes\cpg_input</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input_practice_Setting.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\cpg_input_KeyCodeNames.h">
+      <Filter>classes\cpg_input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cpg_input_KeyMap.h">
+      <Filter>classes\cpg_input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cpg_input_KeyMapConfigHelper.h">
+      <Filter>classes\cpg_input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cpg_input_KeyViewer.h">
+      <Filter>classes\cpg_input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntryScene.h">
+      <Filter>classes\scene</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\PlayGroundScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\algorithm_practice_RootScene.h">
+      <Filter>classes\scene\algorithm_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_Collection01Scene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_Collection02Scene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_Collection03Scene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_Collection04Scene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_Collection05Scene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_Collection06Scene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_CosineScene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_GraphAndNameNode.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_GraphViewNode.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_RootScene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_SineScene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_TangentScene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_test_GraphAndNameNodeScene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\graph_practice_test_GraphViewNodeScene.h">
+      <Filter>classes\scene\graph_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_AllowedKeysTestScene.h">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_ConfigedKeysTestScene.h">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_GamePadTestScene.h">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_KeyAllowScene.h">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_KeyConfigScene.h">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_RootScene.h">
+      <Filter>classes\scene\input_practice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input_practice_Setting.h">
+      <Filter>classes\scene\input_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_CCRandom01Scene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_CCTimeScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_GLUniformInfos.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_GLUniformInfosScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\shader_practice_SimpleTestScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\shader_practice</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_animation_ListScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_CostMapNode.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_animation_PlayNStopScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_CostMapNodeScene.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_button_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_CostNode.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_Block.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_CostNodeScene.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_BlockViewNode.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_Direction8Scene.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_Constant.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_EditorNode.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_EffectManagerNode.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_Grid4TileMap.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_EffectViewNode.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_NodeAStar.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_ExplainScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_ProcessorNode.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_PlayScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_RootScene.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_Processor.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_astar_TestScene.h">
+      <Filter>classes\scene\algorithm_practice\astar</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_ResultScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_Cell4FloodFill.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_Stage.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_Direction4Scene.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_StageViewNode.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_DirectionMapNode.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_test_BlockViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_DirectionMapNodeScene.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_test_EffectManagerNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_EditorNode.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_test_EffectViewScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_Grid4TileMap.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_test_GameProcessorScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_ProcessorNode.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_test_StageViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_RootScene.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_game_TitleScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_floodfill_TestScene.h">
+      <Filter>classes\scene\algorithm_practice\floodfill</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_clickclick_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_loophero_Constant.h">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_loophero_PivotScene.h">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_ContactScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_loophero_RootScene.h">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_GravityScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_loophero_SquareBuilder.h">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_MoveScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_loophero_SquareScene.h">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_game_Constant.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_game_test_TileMapNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_game_TileMapNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_parallax_node_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_parallax_node_RatioCheckScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_tool_TileSheetNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_action_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_CardSelectorNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_CardViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_Constant.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_MessageViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_PlayScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_ResultScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_StageData.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_StageViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_CardViewScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_StageViewScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_TitleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_opacity_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_scale_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_sprite_frame_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_texture_AliasScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_texture_PListScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_animation_CallbackScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_animation_ComponentScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_animation_InfoContainer.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_AnimationComponent.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponent.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponentConfig.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_collision_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_collision_ComponentScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_HittingNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_PlayScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_ResultScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_StageConfig.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_StageNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_TargetManager.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_HittingNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_ObjectActionScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_SpawnAndHitScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_SpawnScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_TitleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_ObjectComponent.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_fileutil_GenerateNDeleteScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_fileutil_PathScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_Constant.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_PlayerNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_PlayScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_ResultScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_StageDataContainer.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_TerrainData.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_TerrainViewer.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_test_PlayerMoveScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_test_TerrainViewerScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_game_TitleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_json_LoadNSaveScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_textField_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_tool_TerrainEditHelper.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_tool_TerrainSaveHelper.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_tool_TerrainToolScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_pathfinder_tool_ui_TileSelectNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_button_DragScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_collision_CollectionScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletManager.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iEnemyProcessor.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayerNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_ResultScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageConfig.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_TitleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_Constant.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_IndicatorViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_LetterViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_PlayScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_ResultScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_Stage.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_StageViewNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_GameProcessScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_StageViewNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_TitleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_input_KeyCodeViewScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_label_ttf_AlignScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_label_ttf_ETCScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_node_AnchorPointScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_ScheduleScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_sound_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_sprite_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step02_fsm1test_AnimationControlScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step02_fsm1test_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Step99_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="..\Classes\algorithm_practice_loophero_TrimScene.h">
+      <Filter>classes\scene\algorithm_practice\loophero</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\tool_practice_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\tool_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\tool_practice_TileSheetTestConfiguration.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\tool_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\tool_practice_TileSheetTestScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\tool_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_layout_test_ChangeSequenceScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_layout_test_VariousItemSizeScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_LayoutHorizontalScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_LayoutNScrollViewScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_LayoutVerticalScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_Minimap.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_MouseCursorScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_RadioButtonScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_RelativeLayoutScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_ScrollViewGeneratorScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_SliderScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_ToggleButtonScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_practice_UIAndCamera.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_ChargeButtonScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_EXButtonScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_MouseRightClickScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_OnMouseOverScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonStepScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonTestScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_button_research_team_fight_manager_OnMouseOverNode.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_gauge_research_AnimationScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_gauge_research_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_gauge_research_GaugeNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_gauge_research_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ui_research_gauge_research_SpriteScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_practice</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_layout_research_OptionBarNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_layout_research_ToolBarNodeScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_RootScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_text_field_BMFontScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_ChargeButtonScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_EXButtonScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_MouseRightClickScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_OnMouseOverScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_RootScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonStepScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_team_fight_manager_ChampionSelectButtonTestScene.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_button_research_team_fight_manager_OnMouseOverNode.h">
+      <Filter>classes\scene\ui_research\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_gauge_research_AnimationScene.h">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_gauge_research_BasicScene.h">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_gauge_research_GaugeNodeScene.h">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_gauge_research_RootScene.h">
+      <Filter>classes\scene\ui_research\gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui_research_gauge_research_SpriteScene.h">
+      <Filter>classes\scene\ui_research\gauge</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_type_effect_BasicScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_type_effect_ColorScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_type_effect_MultiByteScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ui_research_type_effect_ShakeScene.h">
-      <Filter>Source Files\Classes</Filter>
+      <Filter>classes\scene\ui_research\type_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Step99_RootScene.h">
+      <Filter>classes\scene\step99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_action_SoundActionScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_action_SpriteFrameActionScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_image_BasicScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_image_PNGScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_particle_BasicScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_render_CameraNode.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_render_Prerender2Scene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_render_PrerenderScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos_research_update_SequenceScene.h">
+      <Filter>classes\scene\step99\cocos_research</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_collision_CollectionScene.h">
+      <Filter>classes\scene\step99\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step02_fsm1test_AnimationControlScene.h">
+      <Filter>classes\scene\step99\fsm1test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step02_fsm1test_BasicScene.h">
+      <Filter>classes\scene\step99\fsm1test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_Constant.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_IndicatorViewNode.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_LetterViewNode.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_PlayScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_ResultScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_Stage.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_StageViewNode.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_GameProcessScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_StageViewNodeScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_TitleScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_input_KeyCodeViewScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_label_ttf_AlignScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_label_ttf_ETCScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_node_AnchorPointScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_RootScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_ScheduleScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_sound_BasicScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_sprite_BasicScene.h">
+      <Filter>classes\scene\step_01_typetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_action_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_CardSelectorNode.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_CardViewNode.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_Constant.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_MessageViewNode.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_PlayScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_ResultScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_StageData.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_StageViewNode.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_CardViewScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_StageViewScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_TitleScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_opacity_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_RootScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_scale_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_sprite_frame_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_texture_AliasScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_texture_PListScene.h">
+      <Filter>classes\scene\step_02_flipflip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_animation_ListScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_animation_PlayNStopScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_button_BasicScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_Block.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_BlockViewNode.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_Constant.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_EffectManagerNode.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_EffectViewNode.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_ExplainScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_PlayScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_Processor.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_ResultScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_Stage.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_StageViewNode.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_test_BlockViewNodeScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_test_EffectManagerNodeScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_test_EffectViewScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_test_GameProcessorScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_test_StageViewNodeScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_game_TitleScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_clickclick_RootScene.h">
+      <Filter>classes\scene\step_03_clickclick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_fileutil_GenerateNDeleteScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_fileutil_PathScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_Constant.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_PlayerNode.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_PlayScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_ResultScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_StageDataContainer.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_TerrainData.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_TerrainViewer.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_test_PlayerMoveScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_test_TerrainViewerScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_game_TitleScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_json_LoadNSaveScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_RootScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_textField_BasicScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_tool_TerrainEditHelper.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_tool_TerrainSaveHelper.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_tool_TerrainToolScene.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_pathfinder_tool_ui_TileSelectNode.h">
+      <Filter>classes\scene\step_04_pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_animation_CallbackScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_animation_ComponentScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_animation_InfoContainer.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_AnimationComponent.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponent.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponentConfig.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_collision_BasicScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_collision_ComponentScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_HittingNode.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_PlayScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_ResultScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_StageConfig.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_StageNode.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_TargetManager.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_HittingNodeScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_ObjectActionScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_SpawnAndHitScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_SpawnScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_TitleScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_ObjectComponent.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_RootScene.h">
+      <Filter>classes\scene\step_05_mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_button_DragScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletManager.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iEnemyProcessor.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayerNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_ResultScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageConfig.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_TitleScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_RootScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_BasicScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_ContactScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_GravityScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_MoveScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_game_Constant.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_game_test_TileMapNodeScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_game_TileMapNode.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_parallax_node_BasicScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_parallax_node_RatioCheckScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_RootScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.h">
+      <Filter>classes\scene\step_07_defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_tool_TileSheetNode.h">
+      <Filter>classes\scene\step_07_defender</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1869,27 +1867,120 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\proj.win32\game.rc">
-      <Filter>Source Files\proj.win32</Filter>
+      <Filter>proj.win32</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Resources">
+    <Filter Include="resources">
       <UniqueIdentifier>{2E2F2DFC-2C50-38A0-9127-CC5CB5F30A8E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resources\fonts">
+    <Filter Include="resources\fonts">
       <UniqueIdentifier>{FBC086CF-D0E2-34E4-A8EC-33FAA5672827}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resources\res">
+    <Filter Include="resources\res">
       <UniqueIdentifier>{D544BDBB-B5E3-310A-AB08-3F89BC6BE6F9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files">
+    <Filter Include="proj.win32">
+      <UniqueIdentifier>{6A045FED-D10E-345B-9BBB-ADB16C734082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
       <UniqueIdentifier>{948B0889-37A9-3654-B31F-CCB03008EA9B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Classes">
-      <UniqueIdentifier>{5ACBBD55-84DB-3A40-ABED-5A013FDDC525}</UniqueIdentifier>
+    <Filter Include="classes\animation">
+      <UniqueIdentifier>{8e313077-10c0-4200-b1e4-a1c4bbb0ffaf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\proj.win32">
-      <UniqueIdentifier>{6A045FED-D10E-345B-9BBB-ADB16C734082}</UniqueIdentifier>
+    <Filter Include="classes\cpg">
+      <UniqueIdentifier>{3735c1a1-d73f-46fb-b559-50be404badea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\cpg_node">
+      <UniqueIdentifier>{9607deb2-05b5-4f4a-8254-683d4e3a3f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\cpg_ui">
+      <UniqueIdentifier>{c6609a85-56c4-424c-b09b-7bb1b432db48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\fsm1">
+      <UniqueIdentifier>{289c405b-89ea-4479-9073-43d858fbd42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\helper">
+      <UniqueIdentifier>{ba9d8805-2973-46a3-bb57-402a5a95560d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\cpg_input">
+      <UniqueIdentifier>{5c8b96fd-d1a4-412d-a302-ae327e6005c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene">
+      <UniqueIdentifier>{66025b32-a8ab-41d3-b462-0d5ef380df5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\algorithm_practice">
+      <UniqueIdentifier>{cdfa921f-c9dd-419f-be42-e92cfa05f6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\graph_practice">
+      <UniqueIdentifier>{a4bd09f8-411b-47d7-8243-09552e8ad807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\input_practice">
+      <UniqueIdentifier>{4bfb2d45-5270-4b46-ae03-ef925f5cd731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\shader_practice">
+      <UniqueIdentifier>{1bc0a96f-7d8b-4fe4-a598-600a91ab15bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\algorithm_practice\astar">
+      <UniqueIdentifier>{7f70a2de-2e8d-4d90-8bc7-fef31ad3ae06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\algorithm_practice\floodfill">
+      <UniqueIdentifier>{cc15ba5f-fe04-4641-b378-78ee0cad48ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\algorithm_practice\loophero">
+      <UniqueIdentifier>{890a2251-f6f4-4fca-9dd9-1bc47f1c51c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\tool_practice">
+      <UniqueIdentifier>{a0e9e235-7ca3-4a22-ae5d-f27f4f59e477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\ui_practice">
+      <UniqueIdentifier>{41ba19f4-3140-433c-8744-724b9bccc11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\ui_research">
+      <UniqueIdentifier>{74487941-8f22-4083-a71b-382fe73b9a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\ui_research\button">
+      <UniqueIdentifier>{30de96c3-72db-4ccc-8297-10098ffe5d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\ui_research\gauge">
+      <UniqueIdentifier>{f196375b-a589-4acf-a50f-5ecc4711041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\ui_research\type_effect">
+      <UniqueIdentifier>{09a7dd2b-282c-49f8-9ccf-7a007033e3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step99">
+      <UniqueIdentifier>{add4ac5d-b41b-4606-a0fa-1f6520a0b7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step99\cocos_research">
+      <UniqueIdentifier>{2261d4b8-a63c-4ca1-99bf-d69baf3e90aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step99\collision">
+      <UniqueIdentifier>{7dd3a1cd-0442-480f-91c0-76615c7b93ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step99\fsm1test">
+      <UniqueIdentifier>{91069464-3dda-4c4f-9918-bc4c2cc1e5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype">
+      <UniqueIdentifier>{16b59eb8-b2b0-4b67-b9e2-4640f0b8896f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip">
+      <UniqueIdentifier>{a1735360-0313-44e4-80e3-6e7820037053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_03_clickclick">
+      <UniqueIdentifier>{71c60559-b558-41c0-80de-cbd9f7b3b8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_04_pathfinder">
+      <UniqueIdentifier>{2e610bb7-8604-452d-8166-156fbd2a40e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_05_mole">
+      <UniqueIdentifier>{59122d2d-c383-43c4-ae50-a98a042e1285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos">
+      <UniqueIdentifier>{5c5934c5-5a97-4c65-943d-4341f70218e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender">
+      <UniqueIdentifier>{40a6fdce-d8f6-4aff-932d-f4bf3a9db959}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -12,7 +12,7 @@ namespace shader_practice
 		CCTimeScene( const helper::FuncSceneMover& back_to_the_previous_scene_callback );
 
 	public:
-		static const char* getTitle() { return "CCTime"; }
+		static const char* getTitle() { return "( X ) CCTime"; }
 		static cocos2d::Scene* create( const helper::FuncSceneMover& back_to_the_previous_scene_callback );
 
 	private:

@@ -12,7 +12,7 @@ namespace shader_practice
 		SimpleTestScene( const helper::FuncSceneMover& back_to_the_previous_scene_callback );
 
 	public:
-		static const char* getTitle() { return "Simple Test"; }
+		static const char* getTitle() { return "( X ) Simple Test"; }
 		static cocos2d::Scene* create( const helper::FuncSceneMover& back_to_the_previous_scene_callback );
 
 	private:

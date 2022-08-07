@@ -419,130 +419,10 @@
     <ClCompile Include="..\Classes\step02_fsm1test_BasicScene.cpp">
       <Filter>classes\scene\step99\fsm1test</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_Constant.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_IndicatorViewNode.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_LetterViewNode.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_PlayScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_ResultScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_Stage.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_StageViewNode.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_GameProcessScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_test_StageViewNodeScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_game_TitleScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_input_KeyCodeViewScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_label_ttf_AlignScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_label_ttf_ETCScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_node_AnchorPointScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\step_typetype_RootScene.cpp">
       <Filter>classes\scene\step_01_typetype</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_ScheduleScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_sound_BasicScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_typetype_sprite_BasicScene.cpp">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_action_BasicScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_CardSelectorNode.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_CardViewNode.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_Constant.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_MessageViewNode.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_PlayScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_ResultScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_StageData.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_StageViewNode.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_CardViewScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_test_StageViewScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_game_TitleScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_opacity_BasicScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\step_flipflip_RootScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_scale_BasicScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_sprite_frame_BasicScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_texture_AliasScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.cpp">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_flipflip_texture_PListScene.cpp">
       <Filter>classes\scene\step_02_flipflip</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\step_clickclick_animation_ListScene.cpp">
@@ -895,6 +775,126 @@
     </ClCompile>
     <ClCompile Include="..\Classes\step_defender_tool_TileSheetNode.cpp">
       <Filter>classes\scene\step_07_defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_Constant.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_IndicatorViewNode.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_LetterViewNode.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_PlayScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_ResultScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_Stage.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_StageViewNode.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_GameProcessScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_test_StageViewNodeScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_game_TitleScene.cpp">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_input_KeyCodeViewScene.cpp">
+      <Filter>classes\scene\step_01_typetype\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_label_ttf_AlignScene.cpp">
+      <Filter>classes\scene\step_01_typetype\label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_label_ttf_ETCScene.cpp">
+      <Filter>classes\scene\step_01_typetype\label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_node_AnchorPointScene.cpp">
+      <Filter>classes\scene\step_01_typetype\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_ScheduleScene.cpp">
+      <Filter>classes\scene\step_01_typetype\schedule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_sound_BasicScene.cpp">
+      <Filter>classes\scene\step_01_typetype\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_typetype_sprite_BasicScene.cpp">
+      <Filter>classes\scene\step_01_typetype\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_action_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_CardSelectorNode.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_CardViewNode.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_Constant.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_MessageViewNode.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_PlayScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_ResultScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_StageData.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_StageViewNode.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_CardViewScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_test_StageViewScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_game_TitleScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_opacity_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\opacity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_scale_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_sprite_frame_BasicScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\sprite_frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_texture_AliasScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_flipflip_texture_PListScene.cpp">
+      <Filter>classes\scene\step_02_flipflip\texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1369,130 +1369,10 @@
     <ClInclude Include="..\Classes\step02_fsm1test_BasicScene.h">
       <Filter>classes\scene\step99\fsm1test</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_Constant.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_IndicatorViewNode.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_LetterViewNode.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_PlayScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_ResultScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_Stage.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_StageViewNode.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_GameProcessScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_test_StageViewNodeScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_game_TitleScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_input_KeyCodeViewScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_label_ttf_AlignScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_label_ttf_ETCScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_node_AnchorPointScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\step_typetype_RootScene.h">
       <Filter>classes\scene\step_01_typetype</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_ScheduleScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_sound_BasicScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_typetype_sprite_BasicScene.h">
-      <Filter>classes\scene\step_01_typetype</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_action_BasicScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_CardSelectorNode.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_CardViewNode.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_Constant.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_MessageViewNode.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_PlayScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_ResultScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_StageData.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_StageViewNode.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_CardViewScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_test_StageViewScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_game_TitleScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_opacity_BasicScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\step_flipflip_RootScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_scale_BasicScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_sprite_frame_BasicScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_texture_AliasScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.h">
-      <Filter>classes\scene\step_02_flipflip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_flipflip_texture_PListScene.h">
       <Filter>classes\scene\step_02_flipflip</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\step_clickclick_animation_ListScene.h">
@@ -1861,6 +1741,126 @@
     <ClInclude Include="..\Classes\step_defender_tool_TileSheetNode.h">
       <Filter>classes\scene\step_07_defender</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_Constant.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_IndicatorViewNode.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_LetterViewNode.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_PlayScene.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_ResultScene.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_Stage.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_StageViewNode.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_GameProcessScene.h">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_IndicatorViewNodeScene.h">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_LetterViewNodeScene.h">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_test_StageViewNodeScene.h">
+      <Filter>classes\scene\step_01_typetype\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_game_TitleScene.h">
+      <Filter>classes\scene\step_01_typetype\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_input_KeyCodeViewScene.h">
+      <Filter>classes\scene\step_01_typetype\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_label_ttf_AlignScene.h">
+      <Filter>classes\scene\step_01_typetype\label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_label_ttf_ETCScene.h">
+      <Filter>classes\scene\step_01_typetype\label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_node_AnchorPointScene.h">
+      <Filter>classes\scene\step_01_typetype\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_ScheduleScene.h">
+      <Filter>classes\scene\step_01_typetype\schedule</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_sound_BasicScene.h">
+      <Filter>classes\scene\step_01_typetype\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_typetype_sprite_BasicScene.h">
+      <Filter>classes\scene\step_01_typetype\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_action_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_CardSelectorNode.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_CardViewNode.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_Constant.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_MessageViewNode.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_PlayScene.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_ResultScene.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_StageData.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_StageViewNode.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_CardSelectorNodeScene.h">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_CardViewScene.h">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_MessageViewNodeScene.h">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_SelectAndFlipScene.h">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_test_StageViewScene.h">
+      <Filter>classes\scene\step_02_flipflip\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_game_TitleScene.h">
+      <Filter>classes\scene\step_02_flipflip\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_opacity_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip\opacity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_scale_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip\scale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_sprite_frame_BasicScene.h">
+      <Filter>classes\scene\step_02_flipflip\sprite_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_texture_AliasScene.h">
+      <Filter>classes\scene\step_02_flipflip\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_texture_PList4ThisProjectScene.h">
+      <Filter>classes\scene\step_02_flipflip\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_flipflip_texture_PListScene.h">
+      <Filter>classes\scene\step_02_flipflip\texture</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\CMakeLists.txt" />
@@ -1981,6 +1981,51 @@
     </Filter>
     <Filter Include="classes\scene\step_07_defender">
       <UniqueIdentifier>{40a6fdce-d8f6-4aff-932d-f4bf3a9db959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\game">
+      <UniqueIdentifier>{9e94c5ba-36c5-407f-b054-58d5c41f52ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\game_test">
+      <UniqueIdentifier>{60838d81-e3e2-4c7b-8110-909deba62901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\input">
+      <UniqueIdentifier>{888b6463-4f03-4076-b553-a787bc0a1f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\label">
+      <UniqueIdentifier>{b3d41cf6-7e7f-44d0-9bbe-3eb181865917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\node">
+      <UniqueIdentifier>{dd8328ed-e897-4b23-9638-5564ae0e41c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\schedule">
+      <UniqueIdentifier>{19c69f17-28cd-4d8c-be5b-4df414f1d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\sound">
+      <UniqueIdentifier>{911a4163-5018-4d36-a7f1-e2cf7e5c2616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_01_typetype\sprite">
+      <UniqueIdentifier>{20ab9a0c-a243-4798-abbf-60a070b64e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\action">
+      <UniqueIdentifier>{f4ee7e6c-156a-4265-998b-c6e0d9dc5d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\game">
+      <UniqueIdentifier>{d44c86f9-5108-49b9-8b43-1ccbf492ae05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\game_test">
+      <UniqueIdentifier>{244c4fe0-2d3e-4e2a-a1dc-9cef7c30d308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\opacity">
+      <UniqueIdentifier>{22ab40ff-e2a1-449a-ae27-7acfccb76d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\scale">
+      <UniqueIdentifier>{42f89063-1412-44f3-83ae-34b2e11db57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\sprite_frame">
+      <UniqueIdentifier>{3555c580-2b26-4d44-b779-d7a266e816df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_02_flipflip\texture">
+      <UniqueIdentifier>{754cbc16-afba-4110-9d47-f07447b9fd3c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

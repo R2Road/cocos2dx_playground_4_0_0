@@ -431,235 +431,13 @@
     <ClCompile Include="..\Classes\step_pathfinder_RootScene.cpp">
       <Filter>classes\scene\step_04_pathfinder</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_animation_CallbackScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_animation_ComponentScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_animation_InfoContainer.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_AnimationComponent.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_CircleCollisionComponent.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_collision_BasicScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_collision_ComponentScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_HittingNode.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_PlayScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_ResultScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_StageNode.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_TargetManager.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_HittingNodeScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_ObjectActionScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_SpawnAndHitScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_test_SpawnScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_game_TitleScene.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_mole_ObjectComponent.cpp">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\step_mole_RootScene.cpp">
       <Filter>classes\scene\step_05_mole</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_button_DragScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletManager.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyNode.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayerNode.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_ResultScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_StageNode.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_game_TitleScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.cpp">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\step_rain_of_chaos_RootScene.cpp">
       <Filter>classes\scene\step_06_rain_of_chaos</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_BasicScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_ContactScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_GravityScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_chipmunk_MoveScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_game_test_TileMapNodeScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_game_TileMapNode.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_parallax_node_BasicScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_parallax_node_RatioCheckScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\step_defender_RootScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.cpp">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\step_defender_tool_TileSheetNode.cpp">
       <Filter>classes\scene\step_07_defender</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\step_typetype_game_Constant.cpp">
@@ -895,6 +673,228 @@
     </ClCompile>
     <ClCompile Include="..\Classes\step_pathfinder_tool_ui_TileSelectNode.cpp">
       <Filter>classes\scene\step_04_pathfinder\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_animation_CallbackScene.cpp">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_animation_ComponentScene.cpp">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_animation_InfoContainer.cpp">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_CircleCollisionComponent.cpp">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_collision_BasicScene.cpp">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_collision_ComponentScene.cpp">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_HittingNode.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_PlayScene.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_ResultScene.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_StageNode.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_TargetManager.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_HittingNodeScene.cpp">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_ObjectActionScene.cpp">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_SpawnAndHitScene.cpp">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_test_SpawnScene.cpp">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_AnimationComponent.cpp">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_game_TitleScene.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_mole_ObjectComponent.cpp">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\batch_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\batch_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_button_DragScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\button_drag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\draw_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_BulletManager.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayerNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_PlayScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_ResultScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_StageNode.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_game_TitleScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.cpp">
+      <Filter>classes\scene\step_06_rain_of_chaos\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_BasicScene.cpp">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_ContactScene.cpp">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_GravityScene.cpp">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_chipmunk_MoveScene.cpp">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_game_TileMapNode.cpp">
+      <Filter>classes\scene\step_07_defender\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_game_test_TileMapNodeScene.cpp">
+      <Filter>classes\scene\step_07_defender\game_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_parallax_node_BasicScene.cpp">
+      <Filter>classes\scene\step_07_defender\parallax_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_parallax_node_RatioCheckScene.cpp">
+      <Filter>classes\scene\step_07_defender\parallax_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.cpp">
+      <Filter>classes\scene\step_07_defender\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_tool_TileSheetNode.cpp">
+      <Filter>classes\scene\step_07_defender\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.cpp">
+      <Filter>classes\scene\step_07_defender\tool_test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1381,250 +1381,13 @@
     <ClInclude Include="..\Classes\step_pathfinder_RootScene.h">
       <Filter>classes\scene\step_04_pathfinder</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_animation_CallbackScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_animation_ComponentScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_animation_InfoContainer.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_AnimationComponent.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponent.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponentConfig.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_collision_BasicScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_collision_ComponentScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_HittingNode.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_PlayScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_ResultScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_StageConfig.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_StageNode.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_TargetManager.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_HittingNodeScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_ObjectActionScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_SpawnAndHitScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_test_SpawnScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_game_TitleScene.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_mole_ObjectComponent.h">
-      <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\step_mole_RootScene.h">
       <Filter>classes\scene\step_05_mole</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_button_DragScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletManager.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyNode.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iEnemyProcessor.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayerNode.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_ResultScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageConfig.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageNode.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_game_TitleScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.h">
-      <Filter>classes\scene\step_06_rain_of_chaos</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\step_rain_of_chaos_RootScene.h">
       <Filter>classes\scene\step_06_rain_of_chaos</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_BasicScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_ContactScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_GravityScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_chipmunk_MoveScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_game_Constant.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_game_test_TileMapNodeScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_game_TileMapNode.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_parallax_node_BasicScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_parallax_node_RatioCheckScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\step_defender_RootScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.h">
-      <Filter>classes\scene\step_07_defender</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\step_defender_tool_TileSheetNode.h">
       <Filter>classes\scene\step_07_defender</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\step_typetype_game_Constant.h">
@@ -1861,6 +1624,243 @@
     <ClInclude Include="..\Classes\step_pathfinder_tool_ui_TileSelectNode.h">
       <Filter>classes\scene\step_04_pathfinder\tool</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_animation_CallbackScene.h">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_animation_ComponentScene.h">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_animation_InfoContainer.h">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponent.h">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_CircleCollisionComponentConfig.h">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_collision_BasicScene.h">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_collision_ComponentScene.h">
+      <Filter>classes\scene\step_05_mole\circle_collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_HittingNode.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_PlayScene.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_ResultScene.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_StageConfig.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_StageNode.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_TargetManager.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_HittingNodeScene.h">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_ObjectActionScene.h">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_SpawnAndHitScene.h">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_test_SpawnScene.h">
+      <Filter>classes\scene\step_05_mole\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_AnimationComponent.h">
+      <Filter>classes\scene\step_05_mole\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_game_TitleScene.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_mole_ObjectComponent.h">
+      <Filter>classes\scene\step_05_mole\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_BasicScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\batch_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_batch_node_QuadScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\batch_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_button_DragScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\button_drag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_draw_node_CircleScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\draw_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_AnimationInfoContainer.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BackgroundNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletLifeComponent.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_BulletManager.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Blink_CircularSector_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Chain.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Fire_Single.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_2Target_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_CircularSector_Random_02.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_2Target_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Linear_Random_02.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Move_Orbit_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Sleep.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_EnemyProcessor_Tie.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iEnemyProcessor.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_iSpawnProcessor.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayerNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_PlayScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_ResultScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Circle_01_OutToIn.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_1Direction.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_CircularSector_01_2Direction.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_01_CircularSector.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_MultipleShot_02_Line.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_01.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_SingleShot_02_Spread.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_SpawnProcessor_Sleep.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageConfig.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_StageNode.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_ActorMoveScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BackgroundNodeScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_BulletLifeComponentScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_EnemyProcessorScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_SpawnProcessorScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_test_StageNodeScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_game_TitleScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollector.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_rain_of_chaos_input_KeyCodeCollectScene.h">
+      <Filter>classes\scene\step_06_rain_of_chaos\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_BasicScene.h">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_ContactScene.h">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_GravityScene.h">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_chipmunk_MoveScene.h">
+      <Filter>classes\scene\step_07_defender\chipmunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_game_Constant.h">
+      <Filter>classes\scene\step_07_defender\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_game_TileMapNode.h">
+      <Filter>classes\scene\step_07_defender\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_game_test_TileMapNodeScene.h">
+      <Filter>classes\scene\step_07_defender\game_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_parallax_node_BasicScene.h">
+      <Filter>classes\scene\step_07_defender\parallax_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_parallax_node_RatioCheckScene.h">
+      <Filter>classes\scene\step_07_defender\parallax_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_tool_ParallaxLayerEditorScene.h">
+      <Filter>classes\scene\step_07_defender\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_tool_TileSheetNode.h">
+      <Filter>classes\scene\step_07_defender\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\step_defender_tool_test_TileSheetNodeScene.h">
+      <Filter>classes\scene\step_07_defender\tool_test</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="F:\Work\0_Pragma\0_cocos2dProject\project_cocos2dx_playground_4_0_0\cocos2dx_playground_4_0_0\CMakeLists.txt" />
@@ -2056,6 +2056,54 @@
     </Filter>
     <Filter Include="classes\scene\step_04_pathfinder\tool">
       <UniqueIdentifier>{d926b3ca-301b-4b84-9ddf-9796aa505713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_05_mole\animation">
+      <UniqueIdentifier>{1765e0a5-dbef-4341-b59c-b20a962cc548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_05_mole\circle_collision">
+      <UniqueIdentifier>{6c186b0c-0db1-4146-82f4-31bee6a01bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_05_mole\game">
+      <UniqueIdentifier>{b62952bb-30d6-4e21-917f-f4f11a9ffc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_05_mole\game_test">
+      <UniqueIdentifier>{6bc2783e-de45-4c1a-97a1-4c5975bb32bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos\batch_node">
+      <UniqueIdentifier>{b3b5e9f8-8223-4907-9124-454baceb71c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos\button_drag">
+      <UniqueIdentifier>{11822776-9377-4c1f-87e3-f5a9ca4c0144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos\draw_node">
+      <UniqueIdentifier>{427484c3-a7bc-49ed-8c2d-13f48719e8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos\game">
+      <UniqueIdentifier>{d5b4e4dd-0c3c-4f71-b622-bd583898dbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos\game_test">
+      <UniqueIdentifier>{645f5b21-c71b-4cfa-bee8-eedeb3eff2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_06_rain_of_chaos\input">
+      <UniqueIdentifier>{c5f686e2-94ef-4cb2-9198-10cf49540f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender\chipmunk">
+      <UniqueIdentifier>{59854405-255a-4666-805f-df201f132ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender\game">
+      <UniqueIdentifier>{aa46dda4-6865-4bea-b28a-e17284e3450f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender\game_test">
+      <UniqueIdentifier>{2a70865e-0bfe-4e0f-bfe4-ee94ef615ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender\parallax_node">
+      <UniqueIdentifier>{8a2eac1e-b4ca-41b9-ba4a-ba0ac14fa47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender\tool">
+      <UniqueIdentifier>{3c1c073b-a5c4-48f9-81a6-5620f3502ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\scene\step_07_defender\tool_test">
+      <UniqueIdentifier>{6353d8ed-1848-49d1-84c6-cff017975839}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

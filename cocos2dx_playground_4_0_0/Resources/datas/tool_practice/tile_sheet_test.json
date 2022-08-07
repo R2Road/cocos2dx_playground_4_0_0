@@ -1,0 +1,7 @@
+{
+  "layer":2
+
+  , "size":{ "w":10, "h":10 }
+
+  , "sheet":"datas/tool_practice/tool_practice_tile_sheet_config_01.json"
+}

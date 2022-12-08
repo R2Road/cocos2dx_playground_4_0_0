@@ -23,11 +23,6 @@
 
 USING_NS_CC;
 
-namespace
-{
-	const char* CustomeShaderPath = "shaders/shader_DarkScale.fsh";
-}
-
 namespace cocos_research_render
 {
 	Prerender2Scene::Prerender2Scene( const helper::FuncSceneMover& back_to_the_previous_scene_callback ) :
@@ -115,7 +110,7 @@ namespace cocos_research_render
 		//
 		// Research
 		//
-	{
+		{
 			const step_defender::game::TileMapNode::Config stage_config{ 6u, 6u };
 
 			// Load Tile Config
@@ -203,7 +198,7 @@ namespace cocos_research_render
 			}
 
 			//
-			// Capture Arrea
+			// Capture Area
 			//
 			{
 				auto draw_node = DrawNode::create();
